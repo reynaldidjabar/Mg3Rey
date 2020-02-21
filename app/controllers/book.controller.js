@@ -69,8 +69,7 @@ exports.findOne = (req, res) => {
          if (err) {
          if (err.kind === "not_found") {
          res.status(404).send({
-         message: `Buku dengan id ${req.params.id} tidak
-        ditemukan`
+         message: `Buku dengan id ${req.params.id} tidak ditemukan`
          });
          } else {
          res.status(500).send({
@@ -90,8 +89,7 @@ exports.findOne = (req, res) => {
              if (err) {
              if (err.kind === "not_found") {
              res.status(404).send({
-             message: `Buku dengan id ${req.params.id} tidak
-            ditemukan`
+             message: `Buku dengan id ${req.params.id} tidak ditemukan`
              });
              } else {
              res.status(500).send({
@@ -113,8 +111,7 @@ exports.findOne = (req, res) => {
              });
              }
              else {
-             res.send({ message: `Berhasil menghapus seluruh data
-            buku!` });
+             res.send({ message: `Berhasil menghapus seluruh data buku!` });
              }
              });
             };
