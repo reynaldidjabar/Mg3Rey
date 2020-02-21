@@ -1,6 +1,6 @@
 module.exports = {
-    HOST: "heroku",
+    HOST: "localhost",
     USER: "root",
     PASSWORD: "",
-    DATABASE: "Perpustakaan-polibatam"
+    DATABASE: "perpustakaan-polibatam"
    };
